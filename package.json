@@ -1,0 +1,8 @@
+{
+  "name": "waiting-room",
+  "version": "0.1.0",
+  "description": "A simple semaphore for JavaScript",
+  "repository": "https://github.com/nerbiz/waiting-room.git",
+  "author": "Sybren Dijkstra <nerbiz@gmail.com>",
+  "license": "The Unlicense"
+}
