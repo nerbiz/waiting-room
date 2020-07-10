@@ -64,9 +64,7 @@ export default function(slotAmount = 1) {
      * @return {boolean}
      * @private
      */
-    const _slotIsAvailable = () => {
-        return (_slotsInUse < _slotAmount);
-    };
+    const _slotIsAvailable = () => (_slotsInUse < _slotAmount);
 
     /**
      * Handle the next action in the queue
