@@ -1,6 +1,6 @@
 # Waiting Room
 
-### A simple semaphore for JavaScript
+A simple semaphore for JavaScript.
 
 ### Usage
 
@@ -25,12 +25,15 @@ waitingRoom.enqueue(() => {
     doSomething();
 });
 
+// Or just pass functions directly 
+waitingRoom.enqueue(yourAsyncFunction);
+waitingRoom.enqueue(doSomething);
+
+
 // The queue will then be handled internally
 // No need to trigger it manually
 ````
 
-You can also have a look at the example, included in this package.
-
 ### License
 
-This project is released under the [The Unlicense]('http://unlicense.org/'), which means it's placed in the public domain.
+This project is released under the [Unlicense]('http://unlicense.org/').
